@@ -19,8 +19,9 @@ const boxStyles: React.CSSProperties = {
 
 export const App = () => {
   return (
-    <div style={containerStyles}>
-      <Box style={boxStyles}></Box>
-    </div>
+      <div style={containerStyles}>
+        
+          <Box style={boxStyles}></Box>
+      </div>
   );
 };
